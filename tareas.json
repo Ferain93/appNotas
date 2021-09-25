@@ -5,10 +5,14 @@
     },
     {
         "titulo": "Armar aplicación de Tareas",
-        "estado": "en progreso"
+        "estado": "progreso"
     },
     {
         "titulo": "Break",
+        "estado": "pendiente"
+    },
+    {
+        "titulo": "simulacion",
         "estado": "pendiente"
     }
 ]
