@@ -1,6 +1,4 @@
 const fs = require('fs');
-//const readline = require('readline');
-//const rl =require('readline-sync');
 
 let archivoTareas = {
     archivo: 'tareas.json',
@@ -12,9 +10,8 @@ let archivoTareas = {
             titulo : titulo,
             estado : estado
         }
-        const database = logic
-        database.push(tareas)
-        const tareaJson = JSON.stringify(database,null,4)
+        tareas.push(tareas)
+        const tareaJson = JSON.stringify('tareas.json',null,4)
         fs.writeFileSync("./tareas.json",tareaJson)
     },
 }

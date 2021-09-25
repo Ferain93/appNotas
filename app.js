@@ -17,13 +17,17 @@ switch(accion) {
         break;
 
     case undefined:
-        console.log('Tenés que pasarme una acción');
+        console.log('Pasame una acción, por favor');
         break;
 
     case 'crear':
         console.log('Acción Leer');
-        const tareas = archivoTareas.guardarTarea(titulo,estado);
+        const Tarea = archivoTareas.guardarTarea(titulo,estado);
         console.log('Tarea Guardada');
+        break;
+
+    case 'filtrar':
+        console.log(filtrarPorEstado)
         break;
 
     default:
