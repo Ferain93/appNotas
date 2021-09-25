@@ -10,10 +10,7 @@ switch(accion) {
     case 'listar':
         console.log()
         console.log('Listado de tareas esta dado por:\n');
-        const tareas = archivo;
-        tareas.forEach(function(element){
-            console.log("* El titulo de la tarea es: " + element.titulo + ", el estado es: " + element.estado);
-        });
+        funciones.leer();
         console.log()
         break;
 

@@ -21,4 +21,10 @@ const filtrarPorEstado = (element) =>{
     return archivo.filter(item => item.estado ==element)
 }
 
-module.exports = {archivo, escribirJson, guardarTarea, filtrarPorEstado};
+function leer(){
+    archivo.forEach(function(element){
+            console.log("* El titulo de la tarea es: " + element.titulo + ", el estado es: " + element.estado);
+        });
+}
+
+module.exports = {archivo, escribirJson, guardarTarea, filtrarPorEstado, leer};

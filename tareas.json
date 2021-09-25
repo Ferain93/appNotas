@@ -14,5 +14,9 @@
     {
         "titulo": "simulacion",
         "estado": "pendiente"
+    },
+    {
+        "titulo": "Monitoria",
+        "estado": "pendiente"
     }
 ]
