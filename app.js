@@ -14,8 +14,6 @@ switch(accion) {
         console.log()
         break;
 
-    // Micro desafío 1
-    // Atajar el caso en que no se envíe un parámetro
     case undefined:
         console.log('Tenés que pasarme una acción');
         break;
@@ -37,6 +35,6 @@ switch(accion) {
 
     default:
         console.log('No entiendo qué me estás pidiendo');
-        console.log('Las acciones disponibles son: listar y escribir');
+        console.log('Las acciones disponibles son: listar, crear y buscar');
         break;
 }
